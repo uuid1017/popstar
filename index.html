@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html manifest="popstar.appcache">
+<head>
+	<meta charset="utf-8">
+	<title>Pop Star!</title>
+	<meta name="renderer" content="webkit" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, user-scalable=no" />
+	<link href="sourse/css/style.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/ico" href="sourse/img/favicon.ico" />
+</head>
+<body>
+	<section class="loading" id="loading" style="display: block;">Loading</section>
+	<section class="container" id="container" style="display: none;">
+		<canvas width="540" height="640"></canvas>
+		<section class="text" id="text">
+			<section>HIGHEST <strong id="highest">0</strong></section>
+			<section>STAGE <strong id="stage"></strong><section class="new" id="new"><img src="sourse/img/mushroom.png"/></section></section>
+			<section>SCORES <strong id="scores"></strong></section>
+			<section>TARGET <strong id="target"></strong><section class="clear" id="clear" style="display: none"><img src="sourse/img/clear.png"/></section></section>
+		</section>
+		<section class="info" id="changeText" style="display: none;">
+			<strong><b id="blockNums"></b> Stars <b id="blockScores"></b> Scores</strong>
+		</section>
+		<section class="stars-left" id="starsLeftText" style="display: none;"><b id="starsLeft"></b> Stars Left</section>
+		<section class="bonus-scores" id="bonusScoresText" style="display: none;">Bonus Scores <b id="bonusScores"></b></section>
+		<section class="game-over" id="gameOver" style="display: none;">Game Over</section>
+		<section class="applause" id="applause" style="display: none;">
+			<img id="good" src="sourse/img/good.png" style="display: none;"/>
+			<img id="cool" src="sourse/img/cool.png" style="display: none;"/>
+			<img id="fantastic" src="sourse/img/fantastic.png" style="display: none;"/>
+		</section>
+	</section>
+	<section style="display: none;">
+		<img id="background" src="sourse/img/background.png" />
+		<img id="block" src="sourse/img/block.png" />
+		<img id="select" src="sourse/img/select.png" />
+			
+		<img id="flash" src="sourse/img/flash.png" />
+		<img id="star" src="sourse/img/star.png" />
+		
+		<audio id='popVoice'> 
+			<source src='sourse/voice/pop.ogg' type='audio/ogg'> 
+		</audio> 
+		
+		<audio id='selectVoice'> 
+			<source src='sourse/voice/select.ogg' type='audio/ogg'> 
+		</audio> 
+			
+		<audio id='dropVoice'> 
+			<source src='sourse/voice/drop.ogg' type='audio/ogg'> 
+		</audio> 
+			
+		<audio id='endVoice'> 
+			<source src='sourse/voice/end.ogg' type='audio/ogg'> 
+		</audio>
+			
+		<audio id='clearVoice'> 
+			<source src='sourse/voice/clear.ogg' type='audio/ogg'> 
+		</audio>
+			
+		<audio id='targetVoice'> 
+			<source src='sourse/voice/target.ogg' type='audio/ogg'> 
+		</audio>
+			
+		<audio id='applauseVoice'> 
+			<source src='sourse/voice/applause.ogg' type='audio/ogg'> 
+		</audio>
+	</section>
+	<script src="sourse/js/script.js"></script>
+	<section style="display: none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5829233'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/stat.php%3Fid%3D5829233%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</section>
+</body>
+</html>

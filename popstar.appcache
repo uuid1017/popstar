@@ -1,0 +1,32 @@
+CACHE MANIFEST
+#var 2014-9-14 v2
+
+CACHE:
+sourse/css/style.css
+sourse/font/markerfelt-webfont.eot
+sourse/font/markerfelt-webfont.svg
+sourse/font/markerfelt-webfont.ttf
+sourse/font/markerfelt-webfont.woff
+sourse/img/background.png
+sourse/img/block.png
+sourse/img/clear.png
+sourse/img/cool.png
+sourse/img/fantastic.png
+sourse/img/favicon.ico
+sourse/img/flash.png
+sourse/img/good.png
+sourse/img/mushroom.png
+sourse/img/select.png
+sourse/img/star.png
+sourse/js/excanvas.js
+sourse/js/script.js
+sourse/voice/applause.ogg
+sourse/voice/clear.ogg
+sourse/voice/drop.ogg
+sourse/voice/end.ogg
+sourse/voice/pop.ogg
+sourse/voice/select.ogg
+sourse/voice/target.ogg
+
+NETWORK:
+*
