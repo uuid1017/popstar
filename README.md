@@ -1,3 +1,3 @@
 # popstar
 canvas game
-演示地址：http://www.edward67.com/game/popstar/
+演示地址：http://g.alicdn.com/canary/pop-star/index.html
